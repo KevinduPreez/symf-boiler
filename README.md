@@ -57,3 +57,8 @@ services:
     ports:
       - 8081:80
 ```
+## phpMyAdmin Setup
+
+server: database
+user: MYSQL_USER
+password: MYSQL_PASSWORD
