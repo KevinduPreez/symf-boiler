@@ -60,5 +60,7 @@ services:
 ## phpMyAdmin Setup
 
 server: database
+
 user: MYSQL_USER
+
 password: MYSQL_PASSWORD
