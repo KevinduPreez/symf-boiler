@@ -1,5 +1,7 @@
 # symf-boiler
 
+## THIS IS FOR LOCAL DEVELOPMENT ONLY - DO NOT USE IN PRODUCTION
+
 ## Project Start - include into composer.json if not already
 
         "server-start": "symfony server:start ",
@@ -23,7 +25,7 @@
         "migrate": "symfony console doctrine:migrations:migrate",
         "migrate-diff": "symfony console doctrine:migrations:migrate"
         
-## For dev MYSQL in Docker include
+## For local dev MYSQL in Docker include
 ```
 version: '3.7'
 services:
@@ -57,7 +59,7 @@ services:
     ports:
       - 8081:80
 ```
-## phpMyAdmin Setup
+## Local Dev phpMyAdmin Setup
 
 server: database
 
